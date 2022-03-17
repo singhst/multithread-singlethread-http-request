@@ -4,6 +4,8 @@
 
 Compare the time used by (1) multi-threading and (2) single-thread to request data from DATA.GOV.HK API.
 
+Multi-threading much much much outperforms single-threading in Network or I/O bound task. Multi-threading finishes 1,000 requests in 15s, but single-threading completes only 20 reqeusts in ~15s.
+
 Details please see the Jupyter Notebook.
 
 ---

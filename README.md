@@ -24,6 +24,7 @@ Result:
 
 Gov, data api to perform address lookup service:
 * https://data.gov.hk/en-data/dataset/hk-ogcio-st_div_02-als/resource/b848308b-56ed-4be7-82e2-1df988a38c71
+* Doc => https://data.gov.hk/en-data/dataset/hk-ogcio-st_div_02-als => https://www.als.ogcio.gov.hk/docs/Data_Dictionary_for_ALS_EN.pdf 
 
 Python multi-threading & multi-processing:
 * https://blog.floydhub.com/multiprocessing-vs-threading-in-python-what-every-data-scientist-needs-to-know/

@@ -16,7 +16,7 @@ Result:
 |---------------------|-----------------|---------------|
 | no. of Gov API call |      1,000      |      20       |
 | time needs (second) |      15 s       |      13 s     |
-| time per address    |    0.01484 s    |   0.810212 s  |
+| time per a call     |    0.01484 s    |   0.810212 s  |
 
 ---
 

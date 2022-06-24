@@ -1,5 +1,7 @@
 # multithread-vs-singlethread-python
 
+P.S. May by better to use `asynchronous`
+
 ## Multi-threading VS single-thread in HTTP request
 
 Compare the time used by (1) multi-threading and (2) single-thread to request data from DATA.GOV.HK API.

@@ -1,6 +1,8 @@
 # multithread-vs-singlethread-python
 
-P.S. May by better to use `asynchronous`
+P.S. 
+1. May by better to use `asynchronous`
+2. [solve "call api too frequently, connection fail issue"](https://blog.csdn.net/weixin_34232617/article/details/89192813?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&utm_relevant_index=1)
 
 ## Multi-threading VS single-thread in HTTP request
 

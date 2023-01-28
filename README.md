@@ -1,8 +1,9 @@
 # multithread-vs-singlethread-python
 
 P.S. 
-1. May by better to use `asynchronous`
-2. [solve "call api too frequently, connection fail issue"](https://blog.csdn.net/weixin_34232617/article/details/89192813?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&utm_relevant_index=1)
+1. May by better to use `asynchronous` --> prevent race condition (competing the a shared variable / same resources)
+2. [Add `thread lock` to prevent race condition](https://ithelp.ithome.com.tw/articles/10221065)
+3. [solve "call api too frequently, connection fail issue"](https://blog.csdn.net/weixin_34232617/article/details/89192813?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&utm_relevant_index=1)
 
 ## Multi-threading VS single-thread in HTTP request
 
@@ -33,3 +34,5 @@ Gov, data api to perform address lookup service:
 Python multi-threading & multi-processing:
 * https://blog.floydhub.com/multiprocessing-vs-threading-in-python-what-every-data-scientist-needs-to-know/
 
+Race conditions and deadlocks:
+* https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/visual-basic/language-compilers/race-conditions-deadlocks

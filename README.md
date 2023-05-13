@@ -3,7 +3,8 @@
 P.S. 
 1. [May by better to use `asynchronous` --> prevent race condition (competing the a shared variable / same resources)](https://poe.com/s/4Lt3eBg21WbzA4LTiWnI)
 2. [Add `thread lock` to prevent race condition](https://ithelp.ithome.com.tw/articles/10221065)
-3. [solve "call api too frequently, connection fail issue"](https://blog.csdn.net/weixin_34232617/article/details/89192813?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&utm_relevant_index=1)
+3. [Use thread-safe data structure: thread lock, `queue.Queue()`](https://poe.com/s/8hXhjPiPb6H8J8kukBc8)
+4. [solve "call api too frequently, connection fail issue"](https://blog.csdn.net/weixin_34232617/article/details/89192813?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-89192813-blog-107109614.pc_relevant_default&utm_relevant_index=1)
 
 ## Multi-threading VS single-thread in HTTP request
 
